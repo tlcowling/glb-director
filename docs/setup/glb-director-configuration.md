@@ -1,6 +1,6 @@
 # glb-director configuration
 
-The `glb-director` component is the main DPDK application that processes inbound packets and encapsulates them using GUE to server(s) designated by the GLB hasing algorithm. 
+The `glb-director` component is the main DPDK application that processes inbound packets and encapsulates them using GUE to server(s) designated by the GLB hashing algorithm. 
 
 There are 2 places the director can be configured:
  * `/etc/default/glb-director` - Configuration around the DPDK EAL runtime and other similar configuration options, used by systemd.
